@@ -15,7 +15,7 @@ class MQTTClient:
         port=0,
         user=None,
         password=None,
-        keepalive=0,
+        keepalive=60,
         ssl=False,
         ssl_params={},
     ):
